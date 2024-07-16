@@ -1,0 +1,7 @@
+{
+    "port": 8080,
+    "host":  "10.130.200.13,"
+    "root": "C:\\Users\\littl\\Documents\\Malachi CW 1403\\Web design\\html",
+    "open": true,
+    "file": "index.html"
+}

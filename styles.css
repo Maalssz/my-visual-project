@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'dreaming outloud pro';
+    background-color: #ff7de1;
+}
+
+h1.title {
+    text-align: center;
+    color: #000000;
+    margin: 20px;
+    padding: 0px;
+    font-size: 55px;
+    font-style: italic;
+    border: 5px solid #a104a1;
+    border-radius: 20px;
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 5px solid #000000;
+    border-radius: 10px;
+    margin: 0 5px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: #08aca9;
+}
+
+.slideshow-container {
+    max-width: 800px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.mySlides {
+    display: none;
+}
+
+.slideshow-img {
+    width: 100%;
+    height: auto;
+}
+
+.slide-text {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.sports-info {
+    text-align: center;
+    margin: 20px;
+}
+
+.sport-card {
+    background-color: #a367ec;
+    border: 1px solid #0d0d0d;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    width: 250px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s;
+}
+
+.sport-card:hover {
+    transform: scale(1.1);
+}
+
+.sport-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.sport-card:hover img {
+    transform: scale(1.2);
+}
+
+.intro-section {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #a367ec;
+    border-radius: 10px;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 10px;
+}
